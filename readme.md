@@ -1,1 +1,0 @@
-# This project implements a mocktail-based multi-view summarization pipeline that combines business-rule extraction, structural code representations, and multi-agent LLMs to automatically explain legacy COBOL programs.
