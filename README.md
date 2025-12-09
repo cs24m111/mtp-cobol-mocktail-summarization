@@ -35,7 +35,7 @@ Repository link:
 
 ---
 
-## 🧠 Introduction
+## Introduction
 
 Legacy COBOL systems are extremely large and critical, yet difficult to understand due to:
 
@@ -53,8 +53,8 @@ The pipeline integrates:
 
 All experiments can be run:
 
-### ✔ Per COBOL Program  
-### ✔ Across full COBOL projects (batch mode)
+# Per COBOL Program  
+# Across full COBOL projects (batch mode)
 
 ---
 
@@ -138,7 +138,7 @@ mtp-cobol-mocktail-summarization/
 
 ---
 
-## ⚙ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone repository
 
@@ -206,7 +206,7 @@ You can integrate them with extractor outputs or run builders separately dependi
 
 ---
 
-## 🥤 Mocktail Prompt Generation
+## Mocktail Prompt Generation
 
 Run (internally handled by summarizer module):
 
@@ -224,7 +224,7 @@ output/PROGRAM/BR_PROMPTS/<mode>/
 
 ---
 
-## 🤖 LLM Multi-Agent Pipeline
+## LLM Multi-Agent Pipeline
 
 ### Rule-Level Summaries
 
@@ -253,7 +253,7 @@ output/PROGRAM/LLM/file_level/
 
 ---
 
-## ⚖ LLM-as-a-Judge Evaluation
+## LLM-as-a-Judge Evaluation
 
 ```bash
 python mtp_llm_pipeline.py \
@@ -272,7 +272,7 @@ eval_PROGRAM.json
 
 ---
 
-## 📦 Running on All Projects (Full Dataset)
+## Running on All Projects (Full Dataset)
 
 ### 1. Generate static artifacts for all `.cbl` files:
 
@@ -302,7 +302,7 @@ data/eval_per_project.csv
 
 ---
 
-## 🔄 Reproducibility Steps
+## Reproducibility Steps
 
 1. Install all dependencies
 2. Prepare dataset under `data/project_clean/`
