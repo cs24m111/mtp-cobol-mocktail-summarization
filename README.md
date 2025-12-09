@@ -31,8 +31,7 @@ Repository link:
 9. [LLM-as-a-Judge Evaluation](#llm-as-a-judge-evaluation)
 10. [Running on All Projects (Full Dataset)](#running-on-all-projects-full-dataset)
 11. [Reproducibility Steps](#reproducibility-steps)
-12. [Citation](#citation)
-13. [Contributors](#contributors)
+
 
 ---
 
@@ -61,7 +60,15 @@ All experiments can be run:
 
 ## 🏗 System Architecture
 
-![Architecture Diagram](images/diagram.png)
+Architecture Diagram of our Project
+![Architecture Diagram](images/pipeline_mtp.png)
+
+Source code generation in detail explained in this fig
+![Generation of different code source representations Diagram](images/artifacts.png)
+
+
+After generating different code source representations,taking combinations of them as mocktail and giving to code agent LLM for each Business rule and getting summarization is given here in thuis fig
+![Mocktail of different combinations Diagram](images/mocktail.png)
 
 The major modules are:
 
